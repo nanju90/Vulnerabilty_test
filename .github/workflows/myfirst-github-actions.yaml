@@ -4,5 +4,5 @@ on: [push]
 jobs:
   run-shell-command:
     run-on: ubuntu-latest
-      - name: Echo a String
+      - name: "Echo a String"
         run: echo "Hello! Welcome to Agentic DevSecOps"
